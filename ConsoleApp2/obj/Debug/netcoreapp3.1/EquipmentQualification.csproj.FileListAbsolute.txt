@@ -1,0 +1,91 @@
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\РАбота\Свое\код\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+C:\Users\Игорь\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Новая папка\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Копия на всякий\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.exe
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.deps.json
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.json
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.runtimeconfig.dev.json
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.dll
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\bin\Debug\netcoreapp3.1\EquipmentQualification.pdb
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csprojAssemblyReference.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfoInputs.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.AssemblyInfo.cs
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.csproj.CoreCompileInputs.cache
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.dll
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.pdb
+D:\Ingvar\Программирование\С#, а вдруг\Для личного пользования\С#\ConsoleApp2\obj\Debug\netcoreapp3.1\EquipmentQualification.genruntimeconfig.cache
