@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace EquipmentQualification
 {
-    public partial class UserControl1 : System.Windows.Forms.UserControl
+    public partial class WindowMain : Form
     {
-        public UserControl1()
+        public WindowMain()
         {
             InitializeComponent();
-        }
-
-        private void UserControl1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

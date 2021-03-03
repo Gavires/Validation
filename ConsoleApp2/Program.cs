@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace EquipmentQualification
 {
@@ -11,12 +12,8 @@ namespace EquipmentQualification
             ingener.CreateUser("Tasck","Максим","qwerty2");
             ingener.CreateUser("Masck", "Игорь", "fgdgdgdgdd");
             Console.WriteLine(ingener.Users[0].AdminStatus);
-            /*var admin = CreateUserService(true);
-            admin.CreateUser("ADM", "Игорь", "adminAD");
-            Console.WriteLine(admin.Users[0].AdminStatus);*/
-            /*var equipmentService = CreateEquipmentService(ingener);
-            equipmentService.CreatEquipment(ingener,"1", "Смеситель", "45658", "G202", "ДА", "ПРТ-ВД");
-            equipmentService.WritelnInfoListEquipment();*/
+           
+            Application.Run(new WindowInitial());
         }
        static  IUserService  CreateUserService(bool checkAdmin)
         {

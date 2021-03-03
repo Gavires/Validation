@@ -7,7 +7,7 @@ namespace EquipmentQualification
     class EquipmentService :IEquipmentService
     {
         public User UserActiv { get; set; }
-        private List<Equipment> Equipments { get; set; } = new List<Equipment>();
+        public List<Equipment> Equipments { get; set; } = new List<Equipment>();
         public IChecker<Equipment> CheckEquipmentsId { get; set; }
         public IChecker<Equipment> CheckEquipmentsName { get; set; }
         public IChecker<Equipment> CheckEquipmentsLocation { get; set; }
