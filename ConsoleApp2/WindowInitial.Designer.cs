@@ -69,6 +69,7 @@ namespace EquipmentQualification
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttonAuthorization);
             this.Controls.Add(this.buttonIN);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "WindowInitial";
             this.Text = "WindowInitial";
             this.Load += new System.EventHandler(this.MainWindow_Load);

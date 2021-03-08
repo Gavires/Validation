@@ -29,12 +29,34 @@ namespace EquipmentQualification
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.ButtonExit = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // ButtonExit
+            // 
+            this.ButtonExit.Location = new System.Drawing.Point(693, 406);
+            this.ButtonExit.Name = "ButtonExit";
+            this.ButtonExit.Size = new System.Drawing.Size(95, 23);
+            this.ButtonExit.TabIndex = 0;
+            this.ButtonExit.Text = "Выход";
+            this.ButtonExit.UseVisualStyleBackColor = true;
+            this.ButtonExit.Click += new System.EventHandler(this.ButtonExit_Click);
+            // 
+            // WindowMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ButtonExit);
+            this.Name = "WindowMain";
             this.Text = "MainWindowIN";
+            this.Load += new System.EventHandler(this.WindowMain_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button ButtonExit;
     }
 }

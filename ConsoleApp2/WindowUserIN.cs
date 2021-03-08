@@ -12,64 +12,52 @@ namespace EquipmentQualification
 {
     public partial class WindowUserIN : Form
     {
-        private bool UserNameFlag { get; set; } = false;
-        private bool UserPasswordFlag { get; set; } = false;
+        public bool UserNameFlag { get; set; } = false;
+        public bool UserPasswordFlag { get; set; } = false;
         public WindowUserIN()
         {
             InitializeComponent();
         }
-
         private void UserName_TextChanged(object sender, EventArgs e)
         {
-            if (UserName.Text == "Igor")
+            if (UserName.Text.StartsWith(""))
             {
-                progressUserIN.Value += 50;
-                UserNameFlag = true;
+                                
+              progressUserIN.Value += 50;
+            
             }
             else
             {
-                if (progressUserIN.Value >= 50)
-                {
-                    progressUserIN.Value -= 50;
-                }
+                progressUserIN.Value = 0;
             }
         }
-
         private void UserPassword_TextChanged(object sender, EventArgs e)
         {
-            if (UserPassword.Text == "GRekIS.exe")
-            {
-                progressUserIN.Value += 50;
-                UserPasswordFlag = true;
-            }
-            else
-            {
-                if (progressUserIN.Value > 50)
-                {
-                    progressUserIN.Value -= 50;
-                }
-            }
+           
         }
         private void OkUserIN_Click(object sender, EventArgs e)
         {
-            if (UserPasswordFlag && UserNameFlag)
+            if ((UserName.Text == "I") && (UserPassword.Text == "g"))
             {
-                //MessageBox.Show("Вход .....");
-                var windowMain = new WindowMain();
-                windowMain.Show();
-                Hide();
-                Application.Exit();
+                UserNameFlag = true;
+                UserPasswordFlag = true;
+                Close();
             }
             else
             {
-                MessageBox.Show("Неверная пара пароль - логин");
+                _ = MessageBox.Show("Неверная пара логин пароль!");
             }
+            
         }
 
         private void progressUserIN_Click(object sender, EventArgs e)
         {
-            
-            
+         
+        }
+
+        private void WindowUserIN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

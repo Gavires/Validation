@@ -6,14 +6,16 @@ namespace EquipmentQualification
 {
     class Program
     {
+        static public WindowInitial windowInitial;
         static void Main(string[] args)
         {
             var ingener = CreateUserService(false);
             ingener.CreateUser("Tasck","Максим","qwerty2");
             ingener.CreateUser("Masck", "Игорь", "fgdgdgdgdd");
-            Console.WriteLine(ingener.Users[0].AdminStatus);
-           
-            Application.Run(new WindowInitial());
+
+            windowInitial = new WindowInitial();
+            windowInitial.Show();
+            Application.Run(windowInitial);
         }
        static  IUserService  CreateUserService(bool checkAdmin)
         {

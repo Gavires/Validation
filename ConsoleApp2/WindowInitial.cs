@@ -20,9 +20,14 @@ namespace EquipmentQualification
 
         private void buttonIN_Click(object sender, EventArgs e)
         {
-            WindowUserIN windowUserIN = new WindowUserIN();
-            windowUserIN.Show();
-            
+            var windowUserIN = new WindowUserIN();
+            windowUserIN.ShowDialog();
+            if (windowUserIN.UserNameFlag && windowUserIN.UserPasswordFlag)
+            {
+                var windowMain = new WindowMain();
+                windowMain.Show();
+                Hide();
+            }
         }
 
         private void MainWindow_Load(object sender, EventArgs e)

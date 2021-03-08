@@ -129,7 +129,9 @@ namespace EquipmentQualification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 191);
+            this.AutoScroll = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(332, 189);
             this.Controls.Add(this.progressUserIN);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -139,8 +141,11 @@ namespace EquipmentQualification
             this.Controls.Add(this.OkUserIN);
             this.Controls.Add(this.labelUserPassword);
             this.Controls.Add(this.labelUserName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
             this.Name = "WindowUserIN";
             this.Text = "WindowUserIN";
+            this.Load += new System.EventHandler(this.WindowUserIN_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
