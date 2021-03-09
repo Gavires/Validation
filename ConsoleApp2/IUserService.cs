@@ -7,6 +7,7 @@ namespace EquipmentQualification
     interface IUserService
     {
         public List<User> Users { get; }
+        public User ChekReal(string userName);
         public void SetPassword(IChecker<User> check, User user, string oldPassword, string newPassword);
         public User CreateUser(string userName, string name, string password);
         public void ResetPassword(string userName, string newUserPassword);

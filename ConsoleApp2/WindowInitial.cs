@@ -20,13 +20,16 @@ namespace EquipmentQualification
 
         private void buttonIN_Click(object sender, EventArgs e)
         {
+            
             var windowUserIN = new WindowUserIN();
             windowUserIN.ShowDialog();
             if (windowUserIN.UserNameFlag && windowUserIN.UserPasswordFlag)
             {
+                //MessageBox.Show(Program.userService.Users[1].Password);
                 var windowMain = new WindowMain();
                 windowMain.Show();
                 Hide();
+               
             }
         }
 

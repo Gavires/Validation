@@ -11,7 +11,7 @@ namespace EquipmentQualification
         public IChecker<User> UserNameChecker { get; set; }
         public IChecker<User> NewPasswordChecker { get; set; }
         public bool Admin { get; set; }
-        private User ChekReal(string userName)
+        public User ChekReal(string userName)
         {
             foreach (var user in Users)
             {

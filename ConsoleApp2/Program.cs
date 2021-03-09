@@ -7,17 +7,17 @@ namespace EquipmentQualification
     class Program
     {
         static public WindowInitial windowInitial;
+        static public IUserService userService;
         static void Main(string[] args)
         {
-            var ingener = CreateUserService(false);
-            ingener.CreateUser("Tasck","Максим","qwerty2");
-            ingener.CreateUser("Masck", "Игорь", "fgdgdgdgdd");
-
+            userService = CreateUserService(false);
+            userService.CreateUser("Tasck","Максим","qwerty2");
+            userService.CreateUser("Masck", "Игорь", "fgdgdgdgdd");
             windowInitial = new WindowInitial();
-            windowInitial.Show();
+            //windowInitial.Show();
             Application.Run(windowInitial);
         }
-       static  IUserService  CreateUserService(bool checkAdmin)
+       public static  IUserService  CreateUserService(bool checkAdmin)
         {
             var userService = new UserService() { Admin= checkAdmin };
             userService.UserNameChecker = new CompositeCheker<User>() { Checkers = { new languageChecker<User>(), new NotEmptyChecker<User>(), new ClonChecker<User>() {Error = "This username already exists!" } } };

@@ -23,12 +23,12 @@ namespace EquipmentQualification
             if (UserName.Text.StartsWith(""))
             {
                                 
-              progressUserIN.Value += 50;
+              //progressUserIN.Value += 50;
             
             }
             else
             {
-                progressUserIN.Value = 0;
+                //progressUserIN.Value = 0;
             }
         }
         private void UserPassword_TextChanged(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace EquipmentQualification
         }
         private void OkUserIN_Click(object sender, EventArgs e)
         {
-            if ((UserName.Text == "I") && (UserPassword.Text == "g"))
+            if ((Program.userService.ChekReal(UserName.Text)!=null) && (UserPassword.Text == "g"))
             {
                 UserNameFlag = true;
                 UserPasswordFlag = true;

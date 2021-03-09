@@ -6,6 +6,6 @@ namespace EquipmentQualification
 {
     interface IWorkingInterface
     {
-        bool ClonCheck(User[] users, string nameOrPassword, out string error);
+       public bool ClonCheck(User[] users, string nameOrPassword, out string error);
     }
 }
