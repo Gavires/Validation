@@ -22,10 +22,19 @@ namespace EquipmentQualification
             if (Program.userService.ChekReal(UserName.Text) == null)
             {
                 pictureBox1.Visible = true;
+                pictureBox2.Visible = false;
+                ErrorUserName.Visible = false;
+                TrueUserName.Text = "Этот логин свободен!";
+                TrueUserName.Visible = true;
+                ErrorUserName.Visible = false;
             }
             else
             {
                 pictureBox1.Visible = false;
+                pictureBox2.Visible = true;
+                TrueUserName.Visible = false;
+                ErrorUserName.Text = "Пользователь с таким именем уже существет!";
+                ErrorUserName.Visible = true;
             }
            
         }
@@ -43,22 +52,26 @@ namespace EquipmentQualification
                 MessageBox.Show("Пароли не совпадают!", "Ошибка");
             }
         }
-
         private void UserPasswordClon_TextChanged(object sender, EventArgs e)
         {
-            if (UserPasswordClon.Text!= UserPassword.Text)
+            TrueUserName.Visible = false;
+            if (UserPassword.Text == UserPasswordClon.Text)
             {
-                ErrorPasswordClone.Visible = true;
+                pictureBox3.Visible = true;
+                pictureBox4.Visible = false;
+                ErrorPasswordClone.Visible = false;
             }
             else
             {
-                ErrorPasswordClone.Visible = false;
+                pictureBox3.Visible = false;
+                pictureBox4.Visible = true;
+                ErrorPasswordClone.Visible = true;
             }
         }
 
         private void ErrorPasswordClone_Click(object sender, EventArgs e)
         {
-            
+            TrueUserName.Visible = false;
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -72,6 +85,11 @@ namespace EquipmentQualification
             Name_User.Text = "";
             UserPassword.Text = "";
             UserPasswordClon.Text = "";
+            TrueUserName.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox4.Visible = false;
         }
 
         private void CancelButton_Click(object sender, EventArgs e)
@@ -101,12 +119,17 @@ namespace EquipmentQualification
 
         private void NameUser_TextChanged(object sender, EventArgs e)
         {
-
+            TrueUserName.Visible = false;
         }
 
         private void WindowReadUser_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void UserPassword_TextChanged(object sender, EventArgs e)
+        {
+            TrueUserName.Visible = false;
         }
     }
 }

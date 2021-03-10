@@ -33,14 +33,8 @@ namespace EquipmentQualification
         public User CreateUser(string userName, string name, string password)
         {
             var user = new User();
-            //Console.WriteLine("Придумайте логин");
-            //string userName = Console.ReadLine();
             user.UserName = CheckValue(UserNameChecker, ChekReal(userName), "", userName, "UserName");
-            //Console.WriteLine("Ваше имя");
-            //string name = Console.ReadLine();
             user.Name = CheckValue(NameChecker, user, "", name, $"{user.UserName}, Name");
-            //Console.WriteLine("Придумайте пароль");
-            //string password = Console.ReadLine();
             SetPassword(PasswordChecker, user, "", password);
             user.loginStatus = false;
             user.AvtorStatus = true;

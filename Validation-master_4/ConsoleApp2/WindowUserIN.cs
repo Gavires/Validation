@@ -20,15 +20,15 @@ namespace EquipmentQualification
         }
         private void UserName_TextChanged(object sender, EventArgs e)
         {
-            if (UserName.Text.StartsWith(""))
+            if (Program.userService.ChekReal(UserName.Text) != null)
             {
-                                
-              //progressUserIN.Value += 50;
-            
+                pictureBox1.Visible = false;
+                pictureBox3.Visible = true;
             }
             else
             {
-                //progressUserIN.Value = 0;
+                pictureBox1.Visible = true;
+                pictureBox3.Visible = false;
             }
         }
         private void UserPassword_TextChanged(object sender, EventArgs e)

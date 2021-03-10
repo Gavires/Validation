@@ -37,20 +37,20 @@ namespace EquipmentQualification
         {
 
         }
-
         private void buttonAuthorization_Click(object sender, EventArgs e)
         {
             var windowReadUser = new WindowReadUser();
             windowReadUser.Show();
+            foreach (var user in Program.userService.Users)
+            {
+                richTextBox1.Text += $"Username = {user.UserName}, Name = {user.Name}, password = {user.Password}\n";
+            }
             //Hide();
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            foreach (var user in Program.userService.Users)
-            {
-                richTextBox1.Text += $"Username = {user.UserName}, Name = {user.Name}, password = {user.Password}\n";
-            }
+            
            
         }
     }
