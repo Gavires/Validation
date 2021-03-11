@@ -1,0 +1,95 @@
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csprojAssemblyReference.cache
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.GenerateResource.cache
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfoInputs.cache
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfo.cs
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.CoreCompileInputs.cache
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.exe
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.deps.json
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.json
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.dev.json
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.genruntimeconfig.cache
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowInitial.resources
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowMain.resources
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.Properties.Resources.resources
+D:\Ingvar\C#\git_exercise\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowUserIN.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.exe
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.deps.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.dev.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csprojAssemblyReference.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.Properties.Resources.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowInitial.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowMain.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowUserIN.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.GenerateResource.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.GeneratedMSBuildEditorConfig.editorconfig
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfoInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfo.cs
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.CoreCompileInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.genruntimeconfig.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\С#\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowReadUser.resources
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.exe
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.deps.json
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.json
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.dev.json
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csprojAssemblyReference.cache
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.Properties.Resources.resources
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowInitial.resources
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowMain.resources
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowReadUser.resources
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowUserIN.resources
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.GenerateResource.cache
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfoInputs.cache
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfo.cs
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.CoreCompileInputs.cache
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+D:\Ingvar\C#\git_exercise\Validation-master_4\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.genruntimeconfig.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.exe
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.deps.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.runtimeconfig.dev.json
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\bin\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csprojAssemblyReference.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll.config
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.Properties.Resources.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowInitial.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowMain.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowReadUser.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.WindowUserIN.resources
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.GenerateResource.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.GeneratedMSBuildEditorConfig.editorconfig
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfoInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.AssemblyInfo.cs
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.csproj.CoreCompileInputs.cache
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\ref\EquipmentQualification.dll
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.pdb
+\\file\Отдел обеспечения качества\Сариев И.Н\Кодинг\Validation-master\Validation-master\Validation-master\ConsoleApp2\obj\Debug\net5.0-windows7.0\EquipmentQualification.genruntimeconfig.cache
