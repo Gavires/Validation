@@ -22,7 +22,7 @@ namespace EquipmentQualification
         }
        public static  IUserService  CreateUserService(bool checkAdmin)
         {
-            var userService = new UserService() { Users = new UserBaseDate().UsersTXT,  Admin= checkAdmin };
+            var userService = new UserService() { Admin= checkAdmin };
             userService.UserNameChecker = new CompositeCheker<User>() { Checkers = { new languageChecker<User>(), new NotEmptyChecker<User>(), new ClonChecker<User>() {Error = "This username already exists!" } } };
             userService.NameChecker = new CompositeCheker<User>() { Checkers = { new NotEmptyChecker<User>() } };
             userService.PasswordChecker = new CompositeCheker<User>() { Checkers = { new NotEmptyChecker<User>(), new MinLengthChecker<User>() { MinLength = 5 } } };

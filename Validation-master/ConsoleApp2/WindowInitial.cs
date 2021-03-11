@@ -34,8 +34,8 @@ namespace EquipmentQualification
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            var F = new UserBaseDate();
-            F.File();
+            var acces = new UserDataBaseAccess();
+            acces.Open("Names");
         }
         private void buttonAuthorization_Click(object sender, EventArgs e)
         {
