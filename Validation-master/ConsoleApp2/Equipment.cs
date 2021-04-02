@@ -1,6 +1,6 @@
 ﻿namespace EquipmentQualification
 {
-    class Equipment
+    public class Equipment
     {
         public string ID { get; set; }
         public string Name { get; set; }

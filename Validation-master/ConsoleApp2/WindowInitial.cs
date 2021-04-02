@@ -12,10 +12,13 @@ namespace EquipmentQualification
 {
     public partial class WindowInitial : Form
     {
-        public bool UserIn {get; set;}
         public WindowInitial()
         {
             InitializeComponent();
+            using (var ctx = new UserContext())
+            {
+                ctx.Database.Initialize(false);
+            }
         }
 
         private void buttonIN_Click(object sender, EventArgs e)
@@ -31,31 +34,20 @@ namespace EquipmentQualification
                 MessageBox.Show("Вход выполнен!", "Вход");
             }
         }
-
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            var acces = new UserDataBaseAccess();
-            acces.Open("Names");
+
         }
         private void buttonAuthorization_Click(object sender, EventArgs e)
         {
             var windowReadUser = new WindowReadUser();
             windowReadUser.Show();
             richTextBox1.Text = "";
-            foreach (var user in Program.userService.Users)
-            {
-                richTextBox1.Text += $"Username = {user.UserName}, Name = {user.Name}, password = {user.Password}, status = {user.loginStatus}\n";
-            }
-            
-            //Hide();
         }
-
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             
-           
         }
-
         private void buttonClose_Click(object sender, EventArgs e)
         {
             Close();

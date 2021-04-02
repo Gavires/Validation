@@ -29,34 +29,51 @@ namespace EquipmentQualification
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WindowMain));
             this.ButtonExit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.PUserName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ButtonExit
             // 
-            this.ButtonExit.Location = new System.Drawing.Point(693, 406);
+            resources.ApplyResources(this.ButtonExit, "ButtonExit");
             this.ButtonExit.Name = "ButtonExit";
-            this.ButtonExit.Size = new System.Drawing.Size(95, 23);
-            this.ButtonExit.TabIndex = 0;
-            this.ButtonExit.Text = "Выход";
             this.ButtonExit.UseVisualStyleBackColor = true;
             this.ButtonExit.Click += new System.EventHandler(this.ButtonExit_Click);
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // PUserName
+            // 
+            resources.ApplyResources(this.PUserName, "PUserName");
+            this.PUserName.Name = "PUserName";
+            this.PUserName.Click += new System.EventHandler(this.PUserName_Click);
+            // 
             // WindowMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PUserName);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ButtonExit);
             this.Name = "WindowMain";
-            this.Text = "MainWindowIN";
             this.Load += new System.EventHandler(this.WindowMain_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button ButtonExit;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label PUserName;
     }
 }

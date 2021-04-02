@@ -4,12 +4,12 @@ using System.Text;
 
 namespace EquipmentQualification
 {
-    interface IEquipmentService
+   public interface IEquipmentService
     {
-        User UserActiv { get; set; }
+        //User UserActiv { get; set; }
         List<Equipment> Equipments { get; set; }
         public Equipment ChekRealEquipment(string value);
-        Equipment CreatEquipment(User userActiv, string iD, string name, string location, string serialNumber, string numberProtocol, string statusQuall);
+       // Equipment CreatEquipment(User userActiv, string iD, string name, string location, string serialNumber, string numberProtocol, string statusQuall);
         void WriteInfoStatuse();
         void WriteInfoNextQuilification();
         void DellEquipment();

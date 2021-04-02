@@ -11,7 +11,7 @@ namespace EquipmentQualification
 {
     class UserDataBaseAccess
     {
-        //public string Field { get; set; }
+       /* //public string Field { get; set; }
         private static string adres = "D:/Ingvar/C#/git_exercise/Validation-master/Данные/UsersBase.mdb";
         public static string connectString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={adres};";
         private OleDbConnection myConnection = new OleDbConnection(connectString);
@@ -24,7 +24,7 @@ namespace EquipmentQualification
             MessageBox.Show(field1, "Логин");
             myConnection.Close();
             //return field1;
-        }
+        }*/
 
     }
 }

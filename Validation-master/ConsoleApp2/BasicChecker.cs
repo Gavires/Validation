@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EquipmentQualification
 {
-    class BasicChecker<T> : IChecker<T>
+   public class BasicChecker<T> : IChecker<T>
     {
         public bool CheckField(T field, string oldStr, string newStr, out string error)
         {

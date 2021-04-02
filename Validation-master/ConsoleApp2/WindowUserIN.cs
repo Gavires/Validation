@@ -14,13 +14,14 @@ namespace EquipmentQualification
     {
         public bool UserNameFlag { get; set; } = false;
         public bool UserPasswordFlag { get; set; } = false;
+        public AuthorizationUser users { get; set; } = new AuthorizationUser();
         public WindowUserIN()
         {
             InitializeComponent();
         }
         private void UserName_TextChanged(object sender, EventArgs e)
         {
-            if (Program.userService.ChekReal(UserName.Text) != null)
+            if (users.IdentifUser(UserName.Text) != null)
             {
                 pictureBox1.Visible = false;
                 pictureBox3.Visible = true;
@@ -37,11 +38,15 @@ namespace EquipmentQualification
         }
         private void OkUserIN_Click(object sender, EventArgs e)
         {
-            if (Program.userService.IdentifUser(UserName.Text, UserPassword.Text, true) != null)
+            var user = users.IdentifUser(UserName.Text);
+            if ( user!= null)
             {
-                UserNameFlag = true;
-                UserPasswordFlag = true;
-                Close();
+                if (user.Password == UserPassword.Text) 
+                {
+                    UserNameFlag = true;
+                    UserPasswordFlag = true;
+                    Close();
+                }
             }
             else
             {
@@ -49,7 +54,6 @@ namespace EquipmentQualification
             }
             
         }
-
         private void progressUserIN_Click(object sender, EventArgs e)
         {
          

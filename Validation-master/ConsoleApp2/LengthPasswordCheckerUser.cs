@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EquipmentQualification
 {
-    class LengthPasswordCheckerUser<T>: IChecker<T>
+    public class LengthPasswordCheckerUser<T>: IChecker<T>
     {
         public bool CheckField(T field, string oldPassword, string newPassword, out string error)
         {

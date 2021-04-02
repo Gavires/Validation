@@ -4,9 +4,9 @@ using System.Text;
 
 namespace EquipmentQualification
 {
-    class EquipmentService :IEquipmentService
+    public class EquipmentService :IEquipmentService
     {
-        public User UserActiv { get; set; }
+        //public User UserActiv { get; set; }
         public List<Equipment> Equipments { get; set; } = new List<Equipment>();
         public IChecker<Equipment> CheckEquipmentsId { get; set; }
         public IChecker<Equipment> CheckEquipmentsName { get; set; }
@@ -33,9 +33,9 @@ namespace EquipmentQualification
             }
             else { return null; } 
         }
-        public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol)
+        /*public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol)
         {
-            if (userActiv.loginStatus)
+           if (userActiv.loginStatus)
             {
                 var equipment = new Equipment();
                 equipment.ID = CheckValue(CheckEquipmentsId, ChekRealEquipment(iD), "", iD, "Field ID");
@@ -52,7 +52,7 @@ namespace EquipmentQualification
                 Console.WriteLine("Необходим вход зарегистрирвоанного пользователя");
                 return null;
             }
-        }
+        }*/
         public void WriteInfoStatuse() { }
         public void WriteInfoNextQuilification() { }
         public void WritelnInfoListEquipment()

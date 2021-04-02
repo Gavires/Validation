@@ -4,8 +4,8 @@ using System.Text;
 
 namespace EquipmentQualification
 {
-    interface IChecker <T>  
+   public interface IChecker <T>  
     {
-        bool CheckField(T user, string oldStr, string newStr, out string error);
+        public bool CheckField(T user, string oldStr, string newStr, out string error);
     }
 }

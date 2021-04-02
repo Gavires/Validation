@@ -2,7 +2,7 @@
 
 namespace EquipmentQualification
 {
-    class StatusQual
+    public class StatusQual
     {
         public string Status { get; set; }
         public DateTime DateQual { get; set; }

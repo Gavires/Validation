@@ -16,10 +16,11 @@ namespace EquipmentQualification
         {
             InitializeComponent();
         }
+        public AuthorizationUser UsersWReadUser { get; set; } = new AuthorizationUser(); 
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (Program.userService.ChekReal(UserName.Text) == null)
+            if (UsersWReadUser.IdentifUser(UserName.Text) == null)
             {
                 pictureBox1.Visible = true;
                 pictureBox2.Visible = false;
@@ -36,20 +37,19 @@ namespace EquipmentQualification
                 ErrorUserName.Text = "Пользователь с таким именем уже существет!";
                 ErrorUserName.Visible = true;
             }
-           
         }
-
         private void AuthorizationButton_Click(object sender, EventArgs e)
         {
-            if (UserPasswordClon.Text == UserPassword.Text)
+            if (pictureBox1.Visible && pictureBox3.Visible)
             {
-                Program.userService.CreateUser(UserName.Text, Name_User.Text, UserPassword.Text);
+                var userService = UsersWReadUser.CreateUserService(UserName.Text, UserPassword.Text);
+                userService.CreateUser(UserName.Text, Name_User.Text, UserPassword.Text);
                 MessageBox.Show("Пользователь успешно создан", "Авторизация");
                 Close();
             }
             else
             {
-                MessageBox.Show("Пароли не совпадают!", "Ошибка");
+                MessageBox.Show("Неверно заполнены поля!", "Ошибка");
             }
         }
         private void UserPasswordClon_TextChanged(object sender, EventArgs e)
@@ -68,7 +68,6 @@ namespace EquipmentQualification
                 ErrorPasswordClone.Visible = true;
             }
         }
-
         private void ErrorPasswordClone_Click(object sender, EventArgs e)
         {
             TrueUserName.Visible = false;
@@ -78,7 +77,6 @@ namespace EquipmentQualification
         {
 
         }
-
         private void ClearAllButton_Click(object sender, EventArgs e)
         {
             UserName.Text = "";
@@ -91,7 +89,6 @@ namespace EquipmentQualification
             pictureBox2.Visible = false;
             pictureBox4.Visible = false;
         }
-
         private void CancelButton_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show(
@@ -106,12 +103,10 @@ namespace EquipmentQualification
 
             TopMost = true;
         }
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
