@@ -7,7 +7,7 @@ namespace EquipmentQualification
     public class UserContext : DbContext
     {
         public UserContext()
-            : base("Person1")
+            : base("Person")
         { }
           
         public DbSet<User> UsersNew { get; set; }
