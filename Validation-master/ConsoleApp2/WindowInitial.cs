@@ -15,7 +15,7 @@ namespace EquipmentQualification
         public WindowInitial()
         {
             InitializeComponent();
-            using (var ctx = new UserContext())
+            using (var ctx = new DataBaseContext<User>("Person"))
             {
                 ctx.Database.Initialize(false);
             }
@@ -29,6 +29,8 @@ namespace EquipmentQualification
             if (windowUserIN.UserNameFlag && windowUserIN.UserPasswordFlag)
             {
                 var windowMain = new WindowMain();
+                windowMain.users = windowUserIN.usersIn;
+                windowMain.richTextBox1.Text = $"Вход выполнен! Логин: {windowMain.users.UserName} Имя: {windowMain.users.Name}";
                 windowMain.Show();
                 Hide();
                 MessageBox.Show("Вход выполнен!", "Вход");

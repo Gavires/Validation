@@ -15,6 +15,7 @@ namespace EquipmentQualification
         public bool UserNameFlag { get; set; } = false;
         public bool UserPasswordFlag { get; set; } = false;
         public AuthorizationUser users { get; set; } = new AuthorizationUser();
+        public User usersIn;
         public WindowUserIN()
         {
             InitializeComponent();
@@ -45,14 +46,20 @@ namespace EquipmentQualification
                 {
                     UserNameFlag = true;
                     UserPasswordFlag = true;
+                    usersIn = user;
+                    usersIn.loginStatus = true;  
                     Close();
+                }
+                else
+                {
+                    _ = MessageBox.Show("Неверная пара логин пароль!");
                 }
             }
             else
             {
-                _ = MessageBox.Show("Неверная пара логин пароль!");
+                _ = MessageBox.Show("Пользователя не существует");
             }
-            
+
         }
         private void progressUserIN_Click(object sender, EventArgs e)
         {

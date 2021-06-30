@@ -7,7 +7,7 @@ namespace EquipmentQualification
     public interface IUserService
     {
         //public List<User> Users { get; }
-        public DataBaseService UsersList { get; set; }
+        public UserDataBaseService UsersList { get; set; }
        // public UserContext UsersList { get; }
         //public User ChekReal(string userName);
         public void SetPassword(IChecker<User> check, User user, string oldPassword, string newPassword);

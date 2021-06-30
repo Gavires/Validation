@@ -6,7 +6,7 @@ namespace EquipmentQualification
 {
     public class UserService : IUserService
     {
-        public DataBaseService UsersList { get; set; } = new DataBaseService();
+        public UserDataBaseService UsersList { get; set; } = new UserDataBaseService();
         public IChecker<User> PasswordChecker { get; set; }
         public IChecker<User> NameChecker { get; set; }
         public IChecker<User> UserNameChecker { get; set; }
@@ -25,7 +25,7 @@ namespace EquipmentQualification
         }*/
         private string CheckValue(IChecker<User> cheker, User user, string oldValue, string newValue, string field)
         {
-            MessageBox.Show("Вход в проверки");
+            //MessageBox.Show("Вход в проверки");
             return !cheker.CheckField(user, oldValue, newValue, out string message) ? throw new Exception($"{field}: {message}") : newValue;
         }
         public void SetPassword(IChecker<User> check, User user, string oldPassword, string newPassword)
@@ -70,7 +70,7 @@ namespace EquipmentQualification
         }
         public void WriteUsers ()
         {
-            foreach (var user in UsersList.UsersEntityNew.UsersNew)
+            foreach (var user in UsersList.UsersEntityNew.UserDBase)
             {
                 Console.WriteLine($"Username = {user.UserName}, Name = {user.Name}, password = {user.Password}");
                 Console.WriteLine("---------------------------------------------------------------------------");
