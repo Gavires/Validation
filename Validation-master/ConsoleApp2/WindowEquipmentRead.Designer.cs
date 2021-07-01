@@ -46,7 +46,10 @@ namespace EquipmentQualification
             // 
             // label1
             // 
+            this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(50, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 15);
@@ -82,6 +85,8 @@ namespace EquipmentQualification
             // 
             // textBoxNameEquipment
             // 
+            this.textBoxNameEquipment.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBoxNameEquipment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxNameEquipment.Location = new System.Drawing.Point(240, 52);
             this.textBoxNameEquipment.Name = "textBoxNameEquipment";
             this.textBoxNameEquipment.Size = new System.Drawing.Size(230, 23);
@@ -126,6 +131,7 @@ namespace EquipmentQualification
             this.buttonClear.TabIndex = 9;
             this.buttonClear.Text = "Очистить";
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // buttonClose
             // 
@@ -135,6 +141,7 @@ namespace EquipmentQualification
             this.buttonClose.TabIndex = 10;
             this.buttonClose.Text = "Отмена";
             this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // label5
             // 
@@ -151,12 +158,15 @@ namespace EquipmentQualification
             this.textBoxStatus.Name = "textBoxStatus";
             this.textBoxStatus.Size = new System.Drawing.Size(230, 23);
             this.textBoxStatus.TabIndex = 12;
+            this.textBoxStatus.TextChanged += new System.EventHandler(this.textBoxStatus_TextChanged);
             // 
             // WindowEquipmentRead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 372);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(551, 372);
             this.Controls.Add(this.textBoxStatus);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonClose);

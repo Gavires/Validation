@@ -37,23 +37,26 @@ namespace EquipmentQualification
         }*/
         public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol)
         {
-           if (userActiv.loginStatus)
-            {
+            MessageBox.Show("Добрый вечер!");
+            //if (userActiv.loginStatus)
+            //{
+                MessageBox.Show("Попытка создания объекта");
                 var equipment = new Equipment();
                 equipment.ID = CheckValue(CheckEquipmentsId, EquipmentList.ReturnEquipment(iD), "", iD, "Field ID");
                 equipment.Name = CheckValue(CheckEquipmentsName, equipment, "", name, "Field Name Equipment");
                 equipment.Location = CheckValue(CheckEquipmentsLocation, equipment, "", location, "Field Equipment Location");
                 equipment.SerialNumber = CheckValue(CheckEquipmentsSerialNumber, EquipmentList.ReturnEquipment(serialNumber), "", serialNumber, "Field Equipment Serial Number");
-                equipment.Qual.Status = CheckValue(CheckEquipmentsNumberStatusQuall, equipment, "", statusQuall, "Field Equipment Status Quall");
-                equipment.Qual.NumberProtocol = CheckValue(CheckEquipmentsNumberProtocol, EquipmentList.ReturnEquipment(numberProtocol), "", numberProtocol, "Field Equipment Number Protocol");
+                equipment.Status = CheckValue(CheckEquipmentsNumberStatusQuall, equipment, "", statusQuall, "Field Equipment Status Quall");
+                equipment.NumberProtocol = CheckValue(CheckEquipmentsNumberProtocol, EquipmentList.ReturnEquipment(numberProtocol), "", numberProtocol, "Field Equipment Number Protocol");
                 EquipmentList.AddDB(equipment);
                 return equipment;
-            }
-            else
+            //}
+           /* else
             {
                 Console.WriteLine("Необходим вход зарегистрирвоанного пользователя");
                 return null;
-            }
+            }*/
+            MessageBox.Show("Вроде как и создан");
         }
         public void WriteInfoStatuse() { }
         /*public void WriteInfoNextQuilification() { }

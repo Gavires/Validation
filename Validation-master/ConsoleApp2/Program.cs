@@ -21,7 +21,7 @@ namespace EquipmentQualification
             
         }
        
-        static IEquipmentService CreateEquipmentService(User userActive)
+       /* static IEquipmentService CreateEquipmentService(User userActive)
         {
             var equipmentService = new EquipmentService();
             equipmentService.CheckEquipmentsId = new CompositeCheker<Equipment>() { Checkers = { new BasicChecker<Equipment>(), new ClonChecker<Equipment>() { Error = "This Equipment ID already exists!" } } };
@@ -31,6 +31,6 @@ namespace EquipmentQualification
             equipmentService.CheckEquipmentsNumberStatusQuall = new CompositeCheker<Equipment>() { Checkers = { new BasicChecker<Equipment>() } };
             equipmentService.CheckEquipmentsNumberProtocol = new CompositeCheker<Equipment>() { Checkers = { new BasicChecker<Equipment>(), new ClonChecker<Equipment>() { Error = "This Equipment Number protocol already exists!" } } };
             return equipmentService;
-        }
+        }*/
     }
 }
