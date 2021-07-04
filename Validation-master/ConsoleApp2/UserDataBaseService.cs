@@ -10,7 +10,7 @@ namespace EquipmentQualification
 {
     public class UserDataBaseService
     {
-        public DataBaseContext<User> UsersEntityNew { get; set; } = new DataBaseContext<User> ("newPersonTest1");
+        public DataBaseContext<User> UsersEntityNew { get; set; } = new DataBaseContext<User> ("newPersonTest2");
         public User AddDB(User user)
         {
                 // добавляем в бд

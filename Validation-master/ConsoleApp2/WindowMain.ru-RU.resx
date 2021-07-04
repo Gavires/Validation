@@ -133,6 +133,9 @@
   <data name="button2.AccessibleName" xml:space="preserve">
     <value />
   </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>858, 190</value>
   </data>
@@ -178,11 +181,20 @@
   <data name="textBoxSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>664, 23</value>
   </data>
+  <data name="buttonSearch.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="buttonSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
   </data>
   <data name="buttonSearch.Text" xml:space="preserve">
     <value>Найти</value>
+  </data>
+  <data name="buttonDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
   </data>
   <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 23</value>
@@ -192,6 +204,9 @@
   </data>
   <data name="buttonPrint.AccessibleName" xml:space="preserve">
     <value />
+  </data>
+  <data name="buttonPrint.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
   </data>
   <data name="buttonPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -205,6 +220,9 @@
   <data name="buttonEcsportTo.AccessibleName" xml:space="preserve">
     <value />
   </data>
+  <data name="buttonEcsportTo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <data name="buttonEcsportTo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -213,6 +231,9 @@
   </data>
   <data name="buttonEcsportTo.Text" xml:space="preserve">
     <value>Экспорт</value>
+  </data>
+  <data name="buttonClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
   </data>
   <data name="buttonClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>

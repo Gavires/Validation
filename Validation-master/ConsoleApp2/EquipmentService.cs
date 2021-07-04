@@ -35,7 +35,7 @@ namespace EquipmentQualification
             }
             else { return null; } 
         }*/
-        public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol)
+        public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol, DateTime dateQual, int periodQual)
         {
             MessageBox.Show("Добрый вечер!");
             //if (userActiv.loginStatus)
@@ -48,6 +48,9 @@ namespace EquipmentQualification
                 equipment.SerialNumber = CheckValue(CheckEquipmentsSerialNumber, EquipmentList.ReturnEquipment(serialNumber), "", serialNumber, "Field Equipment Serial Number");
                 equipment.Status = CheckValue(CheckEquipmentsNumberStatusQuall, equipment, "", statusQuall, "Field Equipment Status Quall");
                 equipment.NumberProtocol = CheckValue(CheckEquipmentsNumberProtocol, EquipmentList.ReturnEquipment(numberProtocol), "", numberProtocol, "Field Equipment Number Protocol");
+                equipment.DateQual = dateQual;
+                equipment.PeriodQual = periodQual;
+                equipment.nextDataQual();
                 EquipmentList.AddDB(equipment);
                 return equipment;
             //}

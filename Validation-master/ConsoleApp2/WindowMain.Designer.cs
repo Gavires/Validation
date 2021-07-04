@@ -101,6 +101,7 @@ namespace EquipmentQualification
             // labelCount
             // 
             resources.ApplyResources(this.labelCount, "labelCount");
+            this.labelCount.BackColor = System.Drawing.Color.Transparent;
             this.labelCount.Name = "labelCount";
             // 
             // textBoxSearch
@@ -112,8 +113,11 @@ namespace EquipmentQualification
             // buttonSearch
             // 
             resources.ApplyResources(this.buttonSearch, "buttonSearch");
+            this.buttonSearch.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSearch.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.UseWaitCursor = true;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // buttonDelete
@@ -147,7 +151,7 @@ namespace EquipmentQualification
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::EquipmentQualification.Properties.Resources._280665_1366x768;
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonEcsportTo);

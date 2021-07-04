@@ -29,9 +29,9 @@ namespace EquipmentQualification
             equipmentService.CheckEquipmentsNumberStatusQuall = new CompositeCheker<Equipment>() { Checkers = { new BasicChecker<Equipment>() } };
             equipmentService.CheckEquipmentsNumberProtocol = new CompositeCheker<Equipment>() { Checkers = { new BasicChecker<Equipment>(), new ClonChecker<Equipment>() { Error = "This Equipment Number protocol already exists!" } } };
             
-            equipmentService.CreatEquipment(user, indexId, textBoxNameEquipment.Text, textBoxSerialNumber.Text, textBoxLocation.Text, textBoxStatus.Text, textBoxNumberQuall.Text);
+            equipmentService.CreatEquipment(user, indexId, textBoxNameEquipment.Text, textBoxSerialNumber.Text, textBoxLocation.Text, textBoxStatus.Text, textBoxNumberQuall.Text,dateTimePicker1.Value,int.Parse(textBoxYers.Text));
 
-            windowMain.BaseDate("EquipmentEntityTest4");
+            windowMain.BaseDate("EquipmentEntityTest5");
         }
 
         private void WindowEquipmentRead_Load(object sender, EventArgs e)
@@ -64,6 +64,11 @@ namespace EquipmentQualification
         }
 
         private void textBoxStatus_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxYers_TextChanged(object sender, EventArgs e)
         {
 
         }

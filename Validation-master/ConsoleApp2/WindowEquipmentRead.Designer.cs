@@ -42,6 +42,10 @@ namespace EquipmentQualification
             this.buttonClose = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxStatus = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxYers = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -59,7 +63,7 @@ namespace EquipmentQualification
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(50, 104);
+            this.label2.Location = new System.Drawing.Point(48, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 15);
             this.label2.TabIndex = 1;
@@ -68,7 +72,7 @@ namespace EquipmentQualification
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 142);
+            this.label3.Location = new System.Drawing.Point(48, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 15);
             this.label3.TabIndex = 2;
@@ -77,7 +81,7 @@ namespace EquipmentQualification
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 196);
+            this.label4.Location = new System.Drawing.Point(48, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 15);
             this.label4.TabIndex = 3;
@@ -87,28 +91,28 @@ namespace EquipmentQualification
             // 
             this.textBoxNameEquipment.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxNameEquipment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxNameEquipment.Location = new System.Drawing.Point(240, 52);
+            this.textBoxNameEquipment.Location = new System.Drawing.Point(291, 52);
             this.textBoxNameEquipment.Name = "textBoxNameEquipment";
             this.textBoxNameEquipment.Size = new System.Drawing.Size(230, 23);
             this.textBoxNameEquipment.TabIndex = 4;
             // 
             // textBoxSerialNumber
             // 
-            this.textBoxSerialNumber.Location = new System.Drawing.Point(240, 96);
+            this.textBoxSerialNumber.Location = new System.Drawing.Point(291, 81);
             this.textBoxSerialNumber.Name = "textBoxSerialNumber";
             this.textBoxSerialNumber.Size = new System.Drawing.Size(230, 23);
             this.textBoxSerialNumber.TabIndex = 5;
             // 
             // textBoxLocation
             // 
-            this.textBoxLocation.Location = new System.Drawing.Point(240, 134);
+            this.textBoxLocation.Location = new System.Drawing.Point(291, 110);
             this.textBoxLocation.Name = "textBoxLocation";
             this.textBoxLocation.Size = new System.Drawing.Size(230, 23);
             this.textBoxLocation.TabIndex = 6;
             // 
             // textBoxNumberQuall
             // 
-            this.textBoxNumberQuall.Location = new System.Drawing.Point(240, 226);
+            this.textBoxNumberQuall.Location = new System.Drawing.Point(291, 168);
             this.textBoxNumberQuall.Name = "textBoxNumberQuall";
             this.textBoxNumberQuall.Size = new System.Drawing.Size(230, 23);
             this.textBoxNumberQuall.TabIndex = 7;
@@ -146,7 +150,7 @@ namespace EquipmentQualification
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(50, 234);
+            this.label5.Location = new System.Drawing.Point(49, 176);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(169, 15);
             this.label5.TabIndex = 11;
@@ -154,11 +158,45 @@ namespace EquipmentQualification
             // 
             // textBoxStatus
             // 
-            this.textBoxStatus.Location = new System.Drawing.Point(240, 188);
+            this.textBoxStatus.Location = new System.Drawing.Point(291, 139);
             this.textBoxStatus.Name = "textBoxStatus";
             this.textBoxStatus.Size = new System.Drawing.Size(230, 23);
             this.textBoxStatus.TabIndex = 12;
             this.textBoxStatus.TextChanged += new System.EventHandler(this.textBoxStatus_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(50, 205);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(133, 15);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Дата отчета валидации";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(49, 234);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(204, 15);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Срок действия валидации (кол. лет)";
+            // 
+            // textBoxYers
+            // 
+            this.textBoxYers.Location = new System.Drawing.Point(291, 226);
+            this.textBoxYers.Name = "textBoxYers";
+            this.textBoxYers.Size = new System.Drawing.Size(230, 23);
+            this.textBoxYers.TabIndex = 16;
+            this.textBoxYers.TextChanged += new System.EventHandler(this.textBoxYers_TextChanged);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(291, 196);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(230, 23);
+            this.dateTimePicker1.TabIndex = 17;
             // 
             // WindowEquipmentRead
             // 
@@ -167,6 +205,10 @@ namespace EquipmentQualification
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(551, 372);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textBoxYers);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.textBoxStatus);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonClose);
@@ -203,5 +245,9 @@ namespace EquipmentQualification
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBoxStatus;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBoxYers;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace EquipmentQualification
+﻿using System;
+
+namespace EquipmentQualification
 {
     public class Equipment
     {
@@ -9,6 +11,13 @@
         //public StatusQual Qual { get; set; } = new StatusQual();
         public string Status { get; set; }
         public string NumberProtocol { get; set; }
+        public DateTime DateQual { get; set; }
+        public int PeriodQual { get; set; }
+        public DateTime NextDateQual { get; set; }
+        public void nextDataQual()
+        {
+            NextDateQual.AddYears(PeriodQual);
+        }
 
     }
 }
