@@ -132,6 +132,7 @@ namespace EquipmentQualification
             resources.ApplyResources(this.buttonPrint, "buttonPrint");
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.UseVisualStyleBackColor = true;
+            this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
             // buttonEcsportTo
             // 
@@ -149,6 +150,7 @@ namespace EquipmentQualification
             // 
             // WindowMain
             // 
+            this.AcceptButton = this.buttonSearch;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;

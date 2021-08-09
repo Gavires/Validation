@@ -7,8 +7,6 @@ namespace EquipmentQualification
 {
     public class EquipmentService :IEquipmentService
     {
-        //public User UserActiv { get; set; }
-        //public List<Equipment> Equipments { get; set; } = new List<Equipment>();
         public EquipmentDataBaseService EquipmentList { get; set; } = new EquipmentDataBaseService();
         public IChecker<Equipment> CheckEquipmentsId { get; set; }
         public IChecker<Equipment> CheckEquipmentsName { get; set; }
@@ -20,27 +18,12 @@ namespace EquipmentQualification
         {
             return !cheker.CheckField(equipment, oldValue, newValue, out string message) ? throw new Exception($"{field}: {message}") : newValue;
         }
-        /*public Equipment ChekRealEquipment(string value)
-        {
-            if (Equipments != null) 
-            {
-                foreach (var equipment in Equipments)
-                {
-                    if ((equipment.ID == value) || (equipment.SerialNumber == value) || (equipment.Qual.NumberProtocol == value))
-                    {
-                        return equipment;
-                    }
-                }
-                return null;
-            }
-            else { return null; } 
-        }*/
-        public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol, DateTime dateQual, int periodQual)
+        public Equipment CreatEquipment(User userActiv,string iD, string name, string serialNumber, string location, string statusQuall, string numberProtocol, string dateQual, int periodQual)
         {
             MessageBox.Show("Добрый вечер!");
             //if (userActiv.loginStatus)
             //{
-                MessageBox.Show("Попытка создания объекта");
+                //MessageBox.Show("Попытка создания объекта"); Создаем объект оборудовнаие и сохраняем в Базу данных
                 var equipment = new Equipment();
                 equipment.ID = CheckValue(CheckEquipmentsId, EquipmentList.ReturnEquipment(iD), "", iD, "Field ID");
                 equipment.Name = CheckValue(CheckEquipmentsName, equipment, "", name, "Field Name Equipment");
@@ -50,7 +33,8 @@ namespace EquipmentQualification
                 equipment.NumberProtocol = CheckValue(CheckEquipmentsNumberProtocol, EquipmentList.ReturnEquipment(numberProtocol), "", numberProtocol, "Field Equipment Number Protocol");
                 equipment.DateQual = dateQual;
                 equipment.PeriodQual = periodQual;
-                equipment.nextDataQual();
+                var date = DateTime.Parse(equipment.DateQual);
+                equipment.NextDateQual= date.AddYears(periodQual).ToString();
                 EquipmentList.AddDB(equipment);
                 return equipment;
             //}
@@ -59,7 +43,7 @@ namespace EquipmentQualification
                 Console.WriteLine("Необходим вход зарегистрирвоанного пользователя");
                 return null;
             }*/
-            MessageBox.Show("Вроде как и создан");
+            //MessageBox.Show("Вроде как и создан");
         }
         public void WriteInfoStatuse() { }
         /*public void WriteInfoNextQuilification() { }

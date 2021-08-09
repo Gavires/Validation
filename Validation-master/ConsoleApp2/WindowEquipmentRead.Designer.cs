@@ -192,6 +192,7 @@ namespace EquipmentQualification
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CustomFormat = "dd:MM:yy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(291, 196);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -223,6 +224,7 @@ namespace EquipmentQualification
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "WindowEquipmentRead";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Добавление оборудование";
             this.Load += new System.EventHandler(this.WindowEquipmentRead_Load);
             this.ResumeLayout(false);

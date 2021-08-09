@@ -139,6 +139,7 @@ namespace EquipmentQualification
             // 
             // WindowUserIN
             // 
+            this.AcceptButton = this.OkUserIN;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
@@ -156,6 +157,7 @@ namespace EquipmentQualification
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.KeyPreview = true;
             this.Name = "WindowUserIN";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WindowUserIN";
             this.Load += new System.EventHandler(this.WindowUserIN_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

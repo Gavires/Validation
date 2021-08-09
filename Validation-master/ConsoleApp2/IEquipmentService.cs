@@ -10,7 +10,7 @@ namespace EquipmentQualification
         //List<Equipment> Equipments { get; set; }
         public EquipmentDataBaseService EquipmentList { get; set; }
         //public Equipment ChekRealEquipment(string value);
-        Equipment CreatEquipment(User userActiv, string iD, string name, string location, string serialNumber, string numberProtocol, string statusQuall, DateTime dateQual, int lingthQual);
+        Equipment CreatEquipment(User userActiv, string iD, string name, string location, string serialNumber, string numberProtocol, string statusQuall, string dateQual, int lingthQual);
         //void WriteInfoStatuse();
         //void WriteInfoNextQuilification();
         void DellEquipment();

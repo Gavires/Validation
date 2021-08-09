@@ -33,6 +33,7 @@ namespace EquipmentQualification
             this.buttonAuthorization = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.buttonClose = new System.Windows.Forms.Button();
+            this.TestButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonIN
@@ -74,17 +75,29 @@ namespace EquipmentQualification
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
+            // TestButton
+            // 
+            this.TestButton.Location = new System.Drawing.Point(419, 354);
+            this.TestButton.Name = "TestButton";
+            this.TestButton.Size = new System.Drawing.Size(75, 23);
+            this.TestButton.TabIndex = 4;
+            this.TestButton.Text = "Тест вход";
+            this.TestButton.UseVisualStyleBackColor = true;
+            this.TestButton.Click += new System.EventHandler(this.TestButton_Click);
+            // 
             // WindowInitial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 389);
+            this.Controls.Add(this.TestButton);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttonAuthorization);
             this.Controls.Add(this.buttonIN);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "WindowInitial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WindowInitial";
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.ResumeLayout(false);
@@ -97,5 +110,6 @@ namespace EquipmentQualification
         private System.Windows.Forms.Button buttonAuthorization;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button buttonClose;
+        private System.Windows.Forms.Button TestButton;
     }
 }

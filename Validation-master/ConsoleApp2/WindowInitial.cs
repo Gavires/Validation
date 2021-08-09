@@ -54,5 +54,20 @@ namespace EquipmentQualification
         {
             Close();
         }
+
+        private void TestButton_Click(object sender, EventArgs e)
+        {
+            var windowMain = new WindowMain();
+            /*windowMain.users.AdminStatus = true;
+            windowMain.users.Name = "Igor";
+            windowMain.users.UserName = "Ingvar";
+            windowMain.users.Password = "qwerty1";
+            windowMain.users.loginStatus = true;
+            windowMain.richTextBox1.Text = $"Вход выполнен! Логин: {windowMain.users.UserName} Имя: {windowMain.users.Name}";*/
+            windowMain.richTextBox1.Text = $"Вход выполнен! Тестовый режим!";
+            windowMain.Show();
+            Hide();
+            MessageBox.Show("Вход выполнен!", "Вход");
+        }
     }
 }

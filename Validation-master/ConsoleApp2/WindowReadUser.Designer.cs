@@ -304,6 +304,7 @@ namespace EquipmentQualification
             this.Controls.Add(this.Name_User);
             this.Controls.Add(this.UserName);
             this.Name = "WindowReadUser";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.WindowReadUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

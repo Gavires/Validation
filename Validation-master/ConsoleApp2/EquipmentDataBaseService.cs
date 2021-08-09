@@ -9,7 +9,7 @@ namespace EquipmentQualification
 {
    public class EquipmentDataBaseService
     {
-        public DataBaseContext<Equipment> EquipmentEntityNew { get; set; } = new DataBaseContext<Equipment>("EquipmentEntityTest5");
+        public DataBaseContext<Equipment> EquipmentEntityNew { get; set; } = new DataBaseContext<Equipment>("EquipmentEntityTest6");
         public Equipment AddDB(Equipment equipment)
         {
             // добавляем в бд

@@ -57,247 +57,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PUserName.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonEcsportTo.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
-  </data>
-  <data name="&gt;&gt;buttonEcsportTo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>596, 11</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>998, 12</value>
-  </data>
-  <data name="&gt;&gt;textBoxSearch.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textBoxSearch.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1217, 626</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PUserName.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="PUserName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>878, 30</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonEcsportTo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 52</value>
-  </data>
-  <data name="&gt;&gt;ButtonExit.Name" xml:space="preserve">
-    <value>ButtonExit</value>
-  </data>
-  <data name="&gt;&gt;PUserName.Name" xml:space="preserve">
-    <value>PUserName</value>
-  </data>
-  <data name="&gt;&gt;UseerLogin.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="UseerLogin.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="dataGridViewUser.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>60</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>858, 230</value>
-  </data>
-  <data name="&gt;&gt;textBoxCount.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>WindowMain</value>
-  </data>
   <data name="&gt;&gt;dataGridViewUser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBoxSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>768, 52</value>
   </data>
-  <data name="labelCount.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="labelCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>677, 552</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1324, 661</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;PUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelCount.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;UseerLogin.Name" xml:space="preserve">
-    <value>UseerLogin</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewUser.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;ButtonExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBoxSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 52</value>
-  </data>
-  <data name="ButtonExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
-  </data>
-  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>858, 381</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
-    <value>richTextBox1</value>
-  </data>
-  <data name="textBoxSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;buttonSearch.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
-    <value>buttonPrint</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonSearch.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewUser.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.Name" xml:space="preserve">
-    <value>buttonClear</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="textBoxCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, 111</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonExit.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonExit.TabIndex" type="System.Int32, mscorlib">
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="ButtonExit.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>0</value>
   </data>
-  <data name="textBoxCount.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;textBoxCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonExit.Text" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
-    <value>buttonDelete</value>
-  </data>
-  <data name="&gt;&gt;buttonEcsportTo.Name" xml:space="preserve">
-    <value>buttonEcsportTo</value>
-  </data>
-  <data name="&gt;&gt;ButtonExit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="dataGridViewUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 80</value>
-  </data>
-  <data name="&gt;&gt;textBoxCount.Name" xml:space="preserve">
-    <value>textBoxCount</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonClear.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>MainWindowIN</value>
+  <data name="UseerLogin.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -305,100 +83,322 @@
   <data name="&gt;&gt;labelCount.Name" xml:space="preserve">
     <value>labelCount</value>
   </data>
-  <data name="&gt;&gt;textBoxSearch.Name" xml:space="preserve">
-    <value>textBoxSearch</value>
-  </data>
-  <data name="&gt;&gt;buttonEcsportTo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="dataGridViewUser.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="textBoxCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxCount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 330</value>
-  </data>
-  <data name="buttonEcsportTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>858, 275</value>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;UseerLogin.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewUser.Name" xml:space="preserve">
-    <value>dataGridViewUser</value>
-  </data>
-  <data name="&gt;&gt;labelCount.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSearch.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="UseerLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>825, 55</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;buttonPrint.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSearch.Name" xml:space="preserve">
-    <value>buttonSearch</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>789, 229</value>
-  </data>
-  <data name="buttonSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>768, 52</value>
-  </data>
-  <data name="&gt;&gt;UseerLogin.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonClear.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PUserName.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonPrint.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonExit.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="&gt;&gt;buttonEcsportTo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;UseerLogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
+    <value>buttonDelete</value>
+  </data>
+  <data name="buttonEcsportTo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UseerLogin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PUserName.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewUser.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>60</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.Name" xml:space="preserve">
+    <value>buttonSearch</value>
+  </data>
+  <data name="ButtonExit.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1217, 626</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>344, 330</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WindowMain</value>
+  </data>
+  <data name="PUserName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>878, 30</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="buttonSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;UseerLogin.Name" xml:space="preserve">
+    <value>UseerLogin</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCount.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonEcsportTo.Name" xml:space="preserve">
+    <value>buttonEcsportTo</value>
+  </data>
+  <data name="dataGridViewUser.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>858, 381</value>
+  </data>
+  <data name="textBoxCount.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearch.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PUserName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonPrint.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>858, 230</value>
+  </data>
+  <data name="dataGridViewUser.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 80</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Name" xml:space="preserve">
+    <value>buttonClear</value>
+  </data>
+  <data name="&gt;&gt;buttonEcsportTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PUserName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
+    <value>buttonPrint</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewUser.Name" xml:space="preserve">
+    <value>dataGridViewUser</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonEcsportTo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxCount.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ru-RU</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Text" xml:space="preserve">
+    <value>MainWindowIN</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>789, 229</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UseerLogin.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>825, 55</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewUser.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>998, 12</value>
+  </data>
+  <data name="buttonClear.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="buttonEcsportTo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>858, 275</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="labelCount.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxCount.Name" xml:space="preserve">
+    <value>textBoxCount</value>
+  </data>
+  <data name="buttonDelete.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>12</value>
+  </data>
+  <data name="buttonPrint.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;textBoxCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearch.Name" xml:space="preserve">
+    <value>textBoxSearch</value>
+  </data>
+  <data name="&gt;&gt;PUserName.Name" xml:space="preserve">
+    <value>PUserName</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.Name" xml:space="preserve">
+    <value>ButtonExit</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxCount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>817, 111</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonExit.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>95, 23</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 52</value>
+  </data>
+  <data name="buttonClear.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>12, 52</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1324, 661</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelCount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>677, 552</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>ru-RU</value>
   </metadata>
 </root>
